@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"fastapi/Scripts/python.exe\" train_model.py)",
+      "Bash(\"fastapi/Scripts/python.exe\" -m pytest test_ml.py -v)"
+    ]
+  }
+}
